@@ -33,9 +33,6 @@
   <img alt="kne" src="github/cap3.png" width="100%">
 </p>
 <p align="center">
-  <img alt="kne" src="github/cap4.png" width="100%">
-</p>
-<p align="center">
   <img alt="kne" src="github/cap5.png" width="100%">
 </p>
 <p align="center">
