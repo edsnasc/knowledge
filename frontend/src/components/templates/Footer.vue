@@ -1,6 +1,6 @@
 <template>
     <footer class="footer">
-        <span>Copyright <strong>Cod3r</strong> © 2015-2020</span>
+        <span>Copyright <strong>DevEd</strong> © 2015-2021</span>
     </footer>
 </template>
 
@@ -13,8 +13,8 @@ export default {
 <style>
     .footer {
         grid-area: footer;
-        background-color: #DDD;
-        color: #333;
+        background-color: grey;
+        color: #000;
 
         display: flex;
         align-items: center;

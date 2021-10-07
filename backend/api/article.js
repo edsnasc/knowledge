@@ -4,26 +4,25 @@ module.exports = app => {
     const { existsOrError } = app.api.validation
 
     const save = (req, res) => {
-        const { existsOrError } = app.api.validation
-
         const article = { ...req.body }
-        if (req.params.id) article.id = req.params.id
+        if(req.params.id) article.id = req.params.id
 
         try {
             existsOrError(article.name, 'Nome não informado')
             existsOrError(article.description, 'Descrição não informada')
             existsOrError(article.categoryId, 'Categoria não informada')
             existsOrError(article.userId, 'Autor não informado')
-        } catch (msm) {
+            existsOrError(article.content, 'Conteúdo não informado')
+        } catch(msg) {
             res.status(400).send(msg)
         }
 
-        if (article.id) {
+        if(article.id) {
             app.db('articles')
                 .update(article)
                 .where({ id: article.id })
                 .then(_ => res.status(204).send())
-                .catch(err => res.status(500)).send(err)
+                .catch(err => res.status(500).send(err))
         } else {
             app.db('articles')
                 .insert(article)
@@ -36,20 +35,20 @@ module.exports = app => {
         try {
             const rowsDeleted = await app.db('articles')
                 .where({ id: req.params.id }).del()
-
+            
             try {
                 existsOrError(rowsDeleted, 'Artigo não foi encontrado.')
-            } catch (msg) {
-                return res.status(400).send(msg)
+            } catch(msg) {
+                return res.status(400).send(msg)    
             }
 
             res.status(204).send()
-        } catch (msg) {
+        } catch(msg) {
             res.status(500).send(msg)
         }
     }
 
-    const limit = 10 // usado para paginação
+    const limit = 3 // usado para paginação
     const get = async (req, res) => {
         const page = req.query.page || 1
 
@@ -62,7 +61,6 @@ module.exports = app => {
             .then(articles => res.json({ data: articles, count, limit }))
             .catch(err => res.status(500).send(err))
     }
-
 
     const getById = (req, res) => {
         app.db('articles')

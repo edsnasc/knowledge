@@ -58,14 +58,19 @@ export default {
         flex-direction: column;
         flex-wrap: wrap;
     }
-    .menu a,
-    .menu a:hover {
+    .menu a {
         color: #fff;
+        text-decoration: none;
+    }
+    .menu a:hover {
+        color: #000;
+        font-weight: bold;
         text-decoration: none;
     }
     .menu .tree-node.selected > .tree-content,
     .menu .tree-node .tree-content:hover {
-        background-color: rgba(255, 255, 255, 0.2);
+        background: linear-gradient(to right, rgb(255, 226, 89));
+        font-weight: bold;
     }
     .tree-arrow.has-child {
         filter: brightness(2);

@@ -1,9 +1,10 @@
 <template>
     <div class="auth-content">
         <div class="auth-modal">
-            <img src="@/assets/logo.png" width="200" alt="Logo" />
+            <img src="@/assets/k-logo.jpg" width="200" height="200" alt="Logo" />
             <hr>
-            <div class="auth-title">{{ showSignup ? 'Cadastro' : 'Login' }}</div>
+            <div class="auth-title">{{ showSignup ? 'Cadastro' : 'Login' }}
+            <img src="@/assets/login.png" width="40" height="40" alt="Login" /> </div> 
 
             <input v-if="showSignup" v-model="user.name" type="text" placeholder="Nome">
             <input v-model="user.email" name="email" type="text" placeholder="E-mail">
@@ -66,12 +67,13 @@ export default {
     .auth-modal {
         background-color: #FFF;
         width: 350px;
-        padding: 35px;
+        padding: 20px;
         box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .auth-title {
         font-size: 1.2rem;
         font-weight: 100;
@@ -87,20 +89,20 @@ export default {
     }
     .auth-modal button {
         align-self: flex-end;
-        background-color: #2460ae;
+        background-color: #1F3541;
         color: #FFF;
         padding: 5px 15px;
     }
     .auth-modal a {
-        margin-top: 35px;
+        margin-top: 10px;
     }
     .auth-modal hr {
         border: 0;
         width: 100%;
         height: 1px;
         background-image: linear-gradient(to right,
-            rgba(120, 120, 120, 0),
-            rgba(120, 120, 120, 0.75),
-            rgba(120, 120, 120, 0));
+            rgba(85, 81, 83, 0.753),
+            rgb(2, 2, 2),
+            rgba(85, 81, 83, 0.753));
     }
 </style>

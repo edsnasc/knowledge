@@ -39,7 +39,7 @@ export default {
 <style>
 .header {
   grid-area: header;
-  background: linear-gradient(to right, #1e469a, #49a7c1);
+  background-color: #1F3541;
 
   display: flex;
   justify-content: center;
@@ -47,7 +47,7 @@ export default {
 }
 
 .title {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #fff;
   font-weight: 100;
   flex-grow: 1;
