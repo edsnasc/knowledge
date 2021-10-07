@@ -27,19 +27,19 @@
   <img alt="kne" src="github/cap.png" width="100%">
 </p>
 <p align="center">
-  <img alt="kne" src="github/cap2.png" width="700" height="300">
+  <img alt="kne" src="github/cap2.png" width="100%">
 </p>
 <p align="center">
-  <img alt="kne" src="github/cap3.png" width="700" height="300">
+  <img alt="kne" src="github/cap3.png" width="100%">
 </p>
 <p align="center">
-  <img alt="kne" src="github/cap4.png" width="500" height="500">
+  <img alt="kne" src="github/cap4.png" width="100%">
 </p>
 <p align="center">
-  <img alt="kne" src="github/cap5.png" width="500" height="500">
+  <img alt="kne" src="github/cap5.png" width="100%">
 </p>
 <p align="center">
-  <img alt="kne" src="github/cap6.png" width="500" height="500">
+  <img alt="kne" src="github/cap6.png" width="100%">
 </p>
 
 ## 🚀 Technology
