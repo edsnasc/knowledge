@@ -24,7 +24,7 @@
 # Preview 🛰
 
 <p align="center">
-  <img alt="kne" src="github/cap.png" width="700" height="300">
+  <img alt="kne" src="github/cap.png" width="100%">
 </p>
 <p align="center">
   <img alt="kne" src="github/cap2.png" width="700" height="300">
