@@ -33,10 +33,10 @@
   <img alt="kne" src="https://media.giphy.com/media/Ythe0ijpA8epnAxZlz/giphy.gif" width="60%">
 </p>
 <p align="center">
-  <img alt="kne" src="github/cap2.png" width="700" height="300">
+  <img alt="kne" src="github/cap2.png" width="100%">
 </p>
 <p align="center">
-  <img alt="kne" src="github/cap3.png" width="700" height="300">
+  <img alt="kne" src="github/cap3.png" width="100%">
 </p>
 
 ## 🚀 Technology
