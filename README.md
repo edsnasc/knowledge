@@ -24,19 +24,19 @@
 # Preview 🛰
 
 <p align="center">
-  <img alt="kne" src="github/cap.png" width="100%">
+  <img alt="kne" src="https://media.giphy.com/media/ewtyGNdO0qamcEPrwm/giphy.gif" width="60%">
 </p>
 <p align="center">
-  <img alt="kne" src="github/cap2.png" width="100%">
+  <img alt="kne" src="https://media.giphy.com/media/WWpS8RPmqkm1MENWXu/giphy.gif" width="60%">
 </p>
 <p align="center">
-  <img alt="kne" src="github/cap3.png" width="100%">
+  <img alt="kne" src="https://media.giphy.com/media/Ythe0ijpA8epnAxZlz/giphy.gif" width="60%">
 </p>
 <p align="center">
-  <img alt="kne" src="github/cap5.png" width="100%">
+  <img alt="kne" src="github/cap2.png" width="700" height="300">
 </p>
 <p align="center">
-  <img alt="kne" src="github/cap6.png" width="100%">
+  <img alt="kne" src="github/cap3.png" width="700" height="300">
 </p>
 
 ## 🚀 Technology
